@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/emrekara37/EfCore.JsonColumn</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/emrekara37/EfCore.JsonColumn</RepositoryUrl>
+    <Authors>Emre KARA</Authors>
+    <Description></Description>
+    <Copyright />
   </PropertyGroup>
 
   <ItemGroup>

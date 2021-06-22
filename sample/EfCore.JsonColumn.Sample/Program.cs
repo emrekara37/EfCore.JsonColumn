@@ -35,6 +35,7 @@ namespace EfCore.JsonColumn.Sample
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
         [ToJsonColumn]
         public SampleJsonColumn JsonColumn { get; set; }
     }
@@ -51,7 +52,7 @@ namespace EfCore.JsonColumn.Sample
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SampleDb;Trusted_Connection=Truerue");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SampleDb;Trusted_Connection=True");
             base.OnConfiguring(optionsBuilder);
         }
 
