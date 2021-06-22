@@ -1,5 +1,6 @@
 # EfCore.JsonColumn
 
+Nuget =>   https://www.nuget.org/packages/EfCore.JsonColumn/
 ## Usage Example
 
 ```csharp
