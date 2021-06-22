@@ -51,7 +51,7 @@ namespace EfCore.JsonColumn.Sample
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-BNNDM11;Database=SampleDb;Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SampleDb;Trusted_Connection=Truerue");
             base.OnConfiguring(optionsBuilder);
         }
 
